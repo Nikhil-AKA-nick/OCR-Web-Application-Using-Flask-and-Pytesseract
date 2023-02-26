@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image and Text Box</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Open Sans', sans-serif;
+		}
+
+		.container {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 50px 100px;
+			background-color: #f2f2f2;
+		}
+
+		.image {
+			flex: 1;
+			max-width: 100%;
+			margin-right: 50px;
+			border-radius: 8px;
+			box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+		}
+
+		.text-box {
+			flex: 1;
+			padding: 30px;
+			background-color: #fff;
+			border-radius: 8px;
+			box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+		}
+
+		.text-box h2 {
+			margin-top: 0;
+			font-size: 36px;
+			color: #222;
+			font-weight: bold;
+			line-height: 1.2;
+			margin-bottom: 20px;
+		}
+
+		.text-box p {
+			margin-bottom: 0;
+			font-size: 18px;
+			line-height: 1.5;
+			color: #555;
+		}
+
+		.btn {
+			display: inline-block;
+			padding: 15px 30px;
+			background-color: #555;
+			color: #fff;
+			font-size: 18px;
+			border-radius: 30px;
+			text-decoration: none;
+			margin-top: 30px;
+			transition: background-color 0.3s ease-in-out;
+		}
+
+		.btn:hover {
+			background-color: #222;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img class="image" src="your-image-source.jpg" alt="Your image">
+		<div class="text-box">
+			<h2>Heading</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo ut neque sit amet faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin hendrerit mollis ante, ut rhoncus nibh cursus eu.</p>
+			<a href="#" class="btn">Learn More</a>
+		</div>
+	</div>
+</body>
+</html>
